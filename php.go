@@ -1141,7 +1141,7 @@ func ArrayDiff(array1 []string, arrayOthers ...[]string) []string {
 }
 
 // array_unique
-func arrayUnique(arr []string) []string {
+func ArrayUnique(arr []string) []string {
 	size := len(arr)
 	result := make([]string, 0, size)
 	temp := map[string]struct{}{}
