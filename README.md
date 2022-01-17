@@ -11,7 +11,7 @@ Use Golang to implement PHP's common built-in functions. About 140+ functions ha
 
 ## Install
 ```shell
-go get github.com/syyongx/php2go
+go get github.com/taofei-pro/php2go
 ```
 
 ## Requirements
@@ -97,6 +97,7 @@ array_flip()
 array_keys()
 array_values()
 array_merge()
+array_diff()
 array_chunk()
 array_pad()
 array_slice()
